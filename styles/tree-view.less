@@ -5,7 +5,7 @@
 	background: @tree-view-background-color;
 
 	.selected:before {
-		background: #d0d0d0;
+		background: @med-gray;
 	}
 }
 
@@ -17,12 +17,10 @@
 
 .focusable-panel {
 	opacity: 1;
-	background-image: -webkit-gradient(linear, left top, left bottom, from(#e8ecf1), to(#ebebeb));
-	background-image: -webkit-linear-gradient(top, #e8ecf1, #ebebeb);
+	background: @med-gray;
 
 	&:focus {
-		background-image: -webkit-gradient(linear, left top, left bottom, from(#e8ecf1),to(#d1d8e0));
-		background-image: -webkit-linear-gradient(top, #e8ecf1, #d1d8e0);
+		background: @med-gray;
 
 		.selected:before {
 			background: @background-color-selected;
