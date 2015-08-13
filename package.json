@@ -1,7 +1,7 @@
 {
   "name": "hudl-kickoff-light-ui",
   "theme": "ui",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A light UI theme for Atom based on Hudl's Kickoff Colors",
   "repository": "https://github.com/mfouquet/hudl-kickoff-light-ui",
   "license": "MIT",
